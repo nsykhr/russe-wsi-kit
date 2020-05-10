@@ -1,6 +1,6 @@
 # Experiments
 
-In this directory, you will find two notebooks with my experiments for using BERT for Word Sense Induction. One should look at them in chronological order:
+In this directory, you will find two notebooks with my experiments on using BERT for Word Sense Induction. One should look at them in chronological order:
 
 ## 1. ConvBERT
 In this notebook, I used DeepPavlov's conversational RuBERT model to obtain contextual embeddings for the target words, and then different algorithms of dimensionality reduction and clustering. The approach turned out to be very competitive for the Active Dict dataset, but didn't work well at all on the RuTenTen data.
